@@ -98,16 +98,29 @@
 
 
 - (IBAction)pressedResetButton:(id)sender {
-	int i;
-	for (i = 2; i <= 16; i++) {
-		[GameViewController setSeriesBestForColorNumber:i value:0];
-	}
-	[GameViewController setShowFailedHexcode:YES];
-	[GameViewController setColorNum:3];
-	slider.value = 3.0;
-	colorNumLabel.text = @"3";
-	showFailedHexcodeSwitch.on = YES;
+	UIActionSheet *actionSheet = [[UIActionSheet alloc] 
+								  initWithTitle:@"Are you sure?"
+								  delegate:self 
+								  cancelButtonTitle:@"No, leave as it is" 
+								  destructiveButtonTitle:@"Yes, reset, please" 
+								  otherButtonTitles:nil];
+	[actionSheet showInView:self.view];
+	[actionSheet release];
 }
 
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+	if (buttonIndex == 0) {
+		int i;
+		for (i = 2; i <= 16; i++) {
+			[GameViewController setSeriesBestForColorNumber:i value:0];
+		}
+		[GameViewController setShowFailedHexcode:YES];
+		[GameViewController setColorNum:3];
+		slider.value = 3.0;
+		colorNumLabel.text = @"3";
+		showFailedHexcodeSwitch.on = YES;
+	}
+}
 
 @end

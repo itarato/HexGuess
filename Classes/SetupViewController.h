@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SetupViewController : UIViewController {
+@interface SetupViewController : UIViewController <UIActionSheetDelegate> {
 	IBOutlet UILabel *colorNumLabel;
 	IBOutlet UISlider *slider;
 	UIButton *saveButton;
