@@ -1,0 +1,964 @@
+TGuessHex
+v7
+r0
+t319039861.075484
+cCheck dependencies
+cCpResource build/Release-iphoneos/GuessHex.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Info.plist GuessHex-Info.plist
+cCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon.png Icon.png
+cCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small.png Icon-Small.png
+cCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small@2x.png Icon-Small@2x.png
+cCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/whiteButton.png whiteButton.png
+cCompileXIB /Users/itarato/Documents/XCode/GuessHex/MainView.xib
+cCompileXIB /Users/itarato/Documents/XCode/GuessHex/GameView.xib
+cCompileXIB /Users/itarato/Documents/XCode/GuessHex/SetupView.xib
+cCompileXIB /Users/itarato/Documents/XCode/GuessHex/MainWindow.xib
+cProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch.gch GuessHex_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch.gch GuessHex_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/main.o /Users/itarato/Documents/XCode/GuessHex/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHexAppDelegate.o /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GameViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/SetupViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/MainViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ApplicationViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ColorBox.o /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/HexColor.o /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex normal armv6
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/main.o /Users/itarato/Documents/XCode/GuessHex/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHexAppDelegate.o /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GameViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/SetupViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/MainViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ApplicationViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ColorBox.o /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/HexColor.o /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex normal armv7
+cCreateUniversalBinary /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex normal "armv6 armv7"
+cGenerateDSYMFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app.dSYM /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex
+cProcessProductPackaging "/Users/itarato/Library/MobileDevice/Provisioning Profiles/9EE2DAA7-5891-4C16-AFDA-C33170263957.mobileprovision" /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision
+cTouch /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex.xcent
+cCodeSign /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+cValidate /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004D53847E0000000000000110
+t1297319038
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.h
+c000000004D51A6510000000000000217
+t1297196625
+s535
+i<UIKit/UIKit.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m
+c000000004D51C79E000000000000117B
+t1297205150
+s4475
+i"ApplicationViewController.h"
+i"MainViewController.h"
+i"GameViewController.h"
+i"SetupViewController.h"
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.h
+c000000004D529D49000000000000027C
+t1297259849
+s636
+i<UIKit/UIKit.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m
+c000000004D529E5E00000000000008AB
+t1297260126
+s2219
+i"ColorBox.h"
+i"HexColor.h"
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.h
+c000000004D52E43B00000000000001D7
+t1297278011
+s471
+i<UIKit/UIKit.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m
+c000000004D539E370000000000001191
+t1297325623
+s4497
+i"GameViewController.h"
+i"HexColor.h"
+i"ColorBox.h"
+i"GuessHexAppDelegate.h"
+i"ApplicationViewController.h"
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.h
+c000000004D53A11C000000000000027B
+t1297326364
+s635
+i<UIKit/UIKit.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m
+c000000004D53A07A0000000000000E77
+t1297326202
+s3703
+i"GuessHexAppDelegate.h"
+i"ApplicationViewController.h"
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.h
+c000000004D3932CD000000000000019E
+t1295594189
+s414
+i<Foundation/Foundation.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m
+c000000004D3B7C8F0000000000000449
+t1295744143
+s1097
+i"HexColor.h"
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.h
+c000000004D5185A00000000000000161
+t1297188256
+s353
+i<UIKit/UIKit.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m
+c000000004D51A4BA00000000000007DF
+t1297196218
+s2015
+i"MainViewController.h"
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.h
+c000000004D51A618000000000000027B
+t1297196568
+s635
+i<UIKit/UIKit.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
+c000000004D539E4F0000000000000BD5
+t1297325647
+s3029
+i"SetupViewController.h"
+i"GuessHexAppDelegate.h"
+i"ApplicationViewController.h"
+
+N/Users/itarato/Documents/XCode/GuessHex/GameView.xib
+c000000004D52323900000000000039E2
+t1297232441
+s14818
+
+N/Users/itarato/Documents/XCode/GuessHex/GuessHex_Prefix.pch
+c000000004D539D2D00000000000000B9
+t1297325357
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/Icon-Small.png
+c000000004D52D8740000000000000A21
+t1297274996
+s2593
+
+N/Users/itarato/Documents/XCode/GuessHex/Icon-Small@2x.png
+c000000004D52D8630000000000001502
+t1297274979
+s5378
+
+N/Users/itarato/Documents/XCode/GuessHex/Icon.png
+c000000004D52D8F0000000000000147D
+t1297275120
+s5245
+
+N/Users/itarato/Documents/XCode/GuessHex/Icon@2x.png
+c000000004D52D7BA0000000000001567
+t1297274810
+s5479
+
+N/Users/itarato/Documents/XCode/GuessHex/MainView.xib
+c000000004D52323A000000000000367D
+t1297232442
+s13949
+
+N/Users/itarato/Documents/XCode/GuessHex/MainWindow.xib
+c000000004D53A20700000000000051A3
+t1297326599
+s20899
+
+N/Users/itarato/Documents/XCode/GuessHex/SetupView.xib
+c000000004D52323B0000000000006BAC
+t1297232443
+s27564
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex.xcent
+t1297347054
+s415
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ApplicationViewController.o
+t1297346479
+s47876
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ColorBox.o
+t1297346479
+s49252
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GameViewController.o
+t1297346479
+s59780
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex
+t1297346479
+s48664
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex.LinkFileList
+c000000004D53EFAD000000000000041F
+t1297346477
+s1055
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHexAppDelegate.o
+t1297346478
+s53624
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/HexColor.o
+t1297346479
+s13148
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/MainViewController.o
+t1297346479
+s42332
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/SetupViewController.o
+t1297346479
+s52668
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/main.o
+t1297346478
+s6512
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ApplicationViewController.o
+t1297346480
+s47876
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ColorBox.o
+t1297346480
+s49164
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GameViewController.o
+t1297346479
+s58916
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex
+t1297346480
+s48052
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex.LinkFileList
+c000000004D53EFAD000000000000041F
+t1297346477
+s1055
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHexAppDelegate.o
+t1297346479
+s53564
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/HexColor.o
+t1297346480
+s12584
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/MainViewController.o
+t1297346479
+s42352
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/SetupViewController.o
+t1297346479
+s52484
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/main.o
+t1297346479
+s6492
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv6/ApplicationViewController.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv6/ColorBox.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv6/GameViewController.plist
+t1297346480
+s10560
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv6/GuessHexAppDelegate.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv6/HexColor.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv6/MainViewController.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv6/SetupViewController.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv6/main.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/ApplicationViewController.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/ColorBox.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/GameViewController.plist
+t1297346480
+s10560
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/GuessHexAppDelegate.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/HexColor.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/MainViewController.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/SetupViewController.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/main.plist
+t1297346480
+s276
+
+N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+t1297347060
+s612
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app.dSYM
+t1297346480
+s102
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GameView.nib
+t1297346478
+s1992
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex
+t1297346480
+s115536
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small.png
+t1297346477
+s2480
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small@2x.png
+t1297346477
+s5235
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon.png
+t1297346477
+s5006
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon@2x.png
+t1297346477
+s5966
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Info.plist
+t1297346477
+s815
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/MainView.nib
+t1297346478
+s2273
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/MainWindow.nib
+t1297346478
+s1234
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/PkgInfo
+t1297346477
+s8
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/ResourceRules.plist
+t1297346477
+s485
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/SetupView.nib
+t1297346478
+s3280
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision
+t1297347054
+s7033
+
+N/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/whiteButton.png
+t1297346477
+s1603
+
+N/Users/itarato/Documents/XCode/GuessHex/main.m
+c000000004D539D2D0000000000000160
+t1297325357
+s352
+i<UIKit/UIKit.h>
+
+N/Users/itarato/Documents/XCode/GuessHex/whiteButton.png
+c0000000049FA2DB40000000000000596
+t1241132468
+s1430
+
+N/Users/itarato/Library/MobileDevice/Provisioning Profiles/9EE2DAA7-5891-4C16-AFDA-C33170263957.mobileprovision
+c000000004D53F1940000000000001B79
+t1297346964
+s7033
+
+N/Users/itarato/Library/MobileDevice/Provisioning Profiles/EC6B8632-E378-4A81-B28F-EC287DA8D614.mobileprovision
+c000000004D537EDA0000000000001C0A
+t1297317594
+s7178
+
+N/var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch.gch
+t1297345129
+s9783000
+
+N/var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch.pth
+t1297326937
+s2751284
+
+N/var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch.gch
+t1297345128
+s10249944
+
+N/var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-gugtepkuidloolcpqydxepojtxlm/GuessHex_Prefix.pch.pth
+t1297326937
+s2751112
+
+NGuessHex-Info.plist
+c000000004D53E7BA0000000000000378
+t1297344442
+s888
+
+CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m
+s319039280.502197
+e319039280.584737
+r1
+xAnalyze
+x/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m
+lSLF07#2@83"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m319039280#319039280#0(0"0(0#0#75"/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m8612474912#1876"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/ApplicationViewController.plist0#
+
+CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m
+s319039280.553774
+e319039280.611522
+r1
+xAnalyze
+x/Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m
+lSLF07#2@66"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m319039280#319039280#0(0"0(0#0#58"/Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m8611579552#1842"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/ColorBox.plist0#
+
+CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m
+s319039280.433171
+e319039280.499845
+r1
+xAnalyze
+x/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m
+o/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m:95:18: warning: Potential leak of an object allocated on line 95 and stored into 'cb'
+o                 ColorBox *cb = [[ColorBox alloc] initWithColor:hc showCode:[appDelegate getShowFailedHexcode]];
+o                                ^
+o1 warning generated.
+lSLF07#2@76"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319039280#319039280#0(323"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m:95:18: warning: Potential leak of an object allocated on line 95 and stored into 'cb'                 ColorBox *cb = [[ColorBox alloc] initWithColor:hc showCode:[appDelegate getShowFailedHexcode]];                                ^1 warning generated.1(0@69"Potential leak of an object allocated on line 95 and stored into 'cb'319039280#18446744073709551615#0#10(17@0"319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#0"0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#1(3@6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#86#2#86#2#6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#92#2#92#2#17@0"319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#0"0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#1(3@6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#92#2#92#2#6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#93#3#93#3#17@0"319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#0"0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#1(3@6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#93#3#93#3#6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#95#3#95#3#17@0"319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#0"0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#1(3@6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#95#3#95#3#6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#95#18#95#96#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#95#18#0#0#0"1(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#95#18#95#96#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#0"0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#1(3@6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#95#18#95#96#6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#97#30#97#30#17@0"319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#0"0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#1(3@6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#97#30#97#30#6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#97#173#97#173#17@0"319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#0"0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#1(3@6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#97#173#97#173#6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#103#3#103#3#17@0"319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#0"0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#0#0#0#0#1(3@6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#103#3#103#3#6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#108#3#108#3#21@134"Object allocated on line 95 and stored into 'cb' is no longer referenced after this point and has a retain count of +1 (object leaked)319039280#18446744073709551615#0#0(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#108#3#0#0#0"1(6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#108#3#108#3#134"Object allocated on line 95 and stored into 'cb' is no longer referenced after this point and has a retain count of +1 (object leaked)6@68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319018423#108#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m8599368800#1862"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/GameViewController.plist0#
+
+CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m
+s319039280.398483
+e319039280.448608
+r1
+xAnalyze
+x/Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m
+lSLF07#2@77"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m319039280#319039280#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m8610007424#1864"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/GuessHexAppDelegate.plist0#
+
+CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m
+s319039280.584900
+e319039280.656146
+r1
+xAnalyze
+x/Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m
+lSLF07#2@66"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m319039280#319039280#0(0"0(0#0#58"/Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m8611307808#1842"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/HexColor.plist0#
+
+CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m
+s319039280.500300
+e319039280.553685
+r1
+xAnalyze
+x/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m
+lSLF07#2@76"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m319039280#319039280#0(0"0(0#0#68"/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m8609019040#1862"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/MainViewController.plist0#
+
+CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
+s319039280.448706
+e319039280.502107
+r1
+xAnalyze
+x/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
+lSLF07#2@77"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m319039280#319039280#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m8595527360#1864"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/SetupViewController.plist0#
+
+CAnalyze /Users/itarato/Documents/XCode/GuessHex/main.m
+s319039280.386423
+e319039280.433085
+r1
+xAnalyze
+x/Users/itarato/Documents/XCode/GuessHex/main.m
+lSLF07#2@54"Analyze /Users/itarato/Documents/XCode/GuessHex/main.m319039280#319039280#0(0"0(0#0#46"/Users/itarato/Documents/XCode/GuessHex/main.m8610368672#1826"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/main.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/StaticAnalyzer/normal/armv7/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319039860#319039860#0(0"0(0#1#0"8614801408#0"0#
+
+CCodeSign /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+s319039860.635929
+e319039860.847896
+r1
+xCodeSign
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+o/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app: replacing existing signature
+lSLF07#2@44"CodeSign build/Release-iphoneos/GuessHex.app319039860#319039860#0(106"/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app: replacing existing signature0(0#0#75"/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app8617055104#652"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Peter Arato" --resource-rules=/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/ResourceRules.plist --entitlements /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex.xcent /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ApplicationViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319039279.085979
+e319039279.297733
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ApplicationViewController.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m319039279#319039279#0(0"0(0#0#75"/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m8611672480#1847"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv6 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ApplicationViewController.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ColorBox.o /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319039279.178478
+e319039279.373256
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ColorBox.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m319039279#319039279#0(0"0(0#0#58"/Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m8611515904#1813"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv6 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/ColorBox.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GameViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319039278.812849
+e319039279.073313
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GameViewController.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319039278#319039279#0(0"0(0#0#68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m8611494304#1833"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv6 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GameViewController.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHexAppDelegate.o /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319039278.756842
+e319039278.907096
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHexAppDelegate.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m319039278#319039278#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m8611811040#1835"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv6 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHexAppDelegate.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/HexColor.o /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319039279.297866
+e319039279.411593
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/HexColor.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m319039279#319039279#0(0"0(0#0#58"/Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m8610756064#1813"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv6 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/HexColor.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/MainViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319039279.073461
+e319039279.178380
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/MainViewController.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m319039279#319039279#0(0"0(0#0#68"/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m8612098048#1833"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv6 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/SetupViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319039278.907186
+e319039279.085876
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/SetupViewController.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m319039278#319039279#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m8612069824#1835"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv6 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/SetupViewController.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/main.o /Users/itarato/Documents/XCode/GuessHex/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319039278.755739
+e319039278.812753
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/main.o
+x/Users/itarato/Documents/XCode/GuessHex/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/itarato/Documents/XCode/GuessHex/main.m319039278#319039278#0(0"0(0#0#46"/Users/itarato/Documents/XCode/GuessHex/main.m8610785472#1797"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv6 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/main.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ApplicationViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319039279.809285
+e319039280.058910
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ApplicationViewController.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m319039279#319039280#0(0"0(0#0#75"/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m8611131072#1847"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ApplicationViewController.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ColorBox.o /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319039279.811873
+e319039280.053388
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ColorBox.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m319039279#319039280#0(0"0(0#0#58"/Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m8611042432#1813"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/ColorBox.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GameViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319039279.480823
+e319039279.699514
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GameViewController.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m319039279#319039279#0(0"0(0#0#68"/Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m8610407008#1833"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GameViewController.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHexAppDelegate.o /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319039279.452618
+e319039279.582230
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHexAppDelegate.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m319039279#319039279#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m8596489984#1835"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHexAppDelegate.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/HexColor.o /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319039280.053485
+e319039280.168907
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/HexColor.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m319039280#319039280#0(0"0(0#0#58"/Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m8612215744#1813"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/HexColor.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/MainViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319039279.699610
+e319039279.809182
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/MainViewController.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m319039279#319039279#0(0"0(0#0#68"/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m8611656096#1833"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/MainViewController.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/SetupViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319039279.582326
+e319039279.811788
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/SetupViewController.o
+x/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m319039279#319039279#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m8612577248#1835"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/SetupViewController.o0#
+
+CCompileC build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/main.o /Users/itarato/Documents/XCode/GuessHex/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319039279.373354
+e319039279.452523
+r1
+xCompileC
+xbuild/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/main.o
+x/Users/itarato/Documents/XCode/GuessHex/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/itarato/Documents/XCode/GuessHex/main.m319039279#319039279#0(0"0(0#0#46"/Users/itarato/Documents/XCode/GuessHex/main.m8606350240#1797"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -I/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources/armv7 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/main.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/itarato/Documents/XCode/GuessHex/GameView.xib
+s319039277.594982
+e319039278.082502
+r1
+xCompileXIB
+x/Users/itarato/Documents/XCode/GuessHex/GameView.xib
+lSLF07#2@23"CompileXIB GameView.xib319039277#319039278#0(0"0(0#0#52"/Users/itarato/Documents/XCode/GuessHex/GameView.xib8611216480#544"    cd /Users/itarato/Documents/XCode/GuessHex    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GameView.nib /Users/itarato/Documents/XCode/GuessHex/GameView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/itarato/Documents/XCode/GuessHex/MainView.xib
+s319039277.592934
+e319039278.161948
+r1
+xCompileXIB
+x/Users/itarato/Documents/XCode/GuessHex/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib319039277#319039278#0(0"0(0#0#52"/Users/itarato/Documents/XCode/GuessHex/MainView.xib8611362432#544"    cd /Users/itarato/Documents/XCode/GuessHex    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/MainView.nib /Users/itarato/Documents/XCode/GuessHex/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/itarato/Documents/XCode/GuessHex/MainWindow.xib
+s319039278.162049
+e319039278.714419
+r1
+xCompileXIB
+x/Users/itarato/Documents/XCode/GuessHex/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319039278#319039278#0(0"0(0#0#54"/Users/itarato/Documents/XCode/GuessHex/MainWindow.xib8611625536#548"    cd /Users/itarato/Documents/XCode/GuessHex    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/MainWindow.nib /Users/itarato/Documents/XCode/GuessHex/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/itarato/Documents/XCode/GuessHex/SetupView.xib
+s319039278.082592
+e319039278.755161
+r1
+xCompileXIB
+x/Users/itarato/Documents/XCode/GuessHex/SetupView.xib
+lSLF07#2@24"CompileXIB SetupView.xib319039278#319039278#0(0"0(0#0#53"/Users/itarato/Documents/XCode/GuessHex/SetupView.xib8612240480#546"    cd /Users/itarato/Documents/XCode/GuessHex    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/SetupView.nib /Users/itarato/Documents/XCode/GuessHex/SetupView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small.png Icon-Small.png
+s319039277.519117
+e319039277.564441
+r1
+xCopyPNGFile
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small.png
+xIcon-Small.png
+lSLF07#2@77"CopyPNGFile build/Release-iphoneos/GuessHex.app/Icon-Small.png Icon-Small.png319039277#319039277#0(0"0(0#0#54"/Users/itarato/Documents/XCode/GuessHex/Icon-Small.png8611616576#574"    cd /Users/itarato/Documents/XCode/GuessHex    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/itarato/Documents/XCode/GuessHex/Icon-Small.png /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small.png0#
+
+CCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small@2x.png Icon-Small@2x.png
+s319039277.560880
+e319039277.592841
+r1
+xCopyPNGFile
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small@2x.png
+xIcon-Small@2x.png
+lSLF07#2@83"CopyPNGFile build/Release-iphoneos/GuessHex.app/Icon-Small@2x.png Icon-Small@2x.png319039277#319039277#0(0"0(0#0#57"/Users/itarato/Documents/XCode/GuessHex/Icon-Small@2x.png8611506208#580"    cd /Users/itarato/Documents/XCode/GuessHex    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/itarato/Documents/XCode/GuessHex/Icon-Small@2x.png /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon-Small@2x.png0#
+
+CCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon.png Icon.png
+s319039277.480446
+e319039277.519024
+r1
+xCopyPNGFile
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon.png
+xIcon.png
+lSLF07#2@65"CopyPNGFile build/Release-iphoneos/GuessHex.app/Icon.png Icon.png319039277#319039277#0(0"0(0#0#48"/Users/itarato/Documents/XCode/GuessHex/Icon.png8612499520#562"    cd /Users/itarato/Documents/XCode/GuessHex    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/itarato/Documents/XCode/GuessHex/Icon.png /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon.png0#
+
+CCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon@2x.png Icon@2x.png
+s319039277.481237
+e319039277.560788
+r1
+xCopyPNGFile
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon@2x.png
+xIcon@2x.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/GuessHex.app/Icon@2x.png Icon@2x.png319039277#319039277#0(0"0(0#0#51"/Users/itarato/Documents/XCode/GuessHex/Icon@2x.png8612226848#568"    cd /Users/itarato/Documents/XCode/GuessHex    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/itarato/Documents/XCode/GuessHex/Icon@2x.png /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Icon@2x.png0#
+
+CCopyPNGFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/whiteButton.png whiteButton.png
+s319039277.564532
+e319039277.594882
+r1
+xCopyPNGFile
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/whiteButton.png
+xwhiteButton.png
+lSLF07#2@79"CopyPNGFile build/Release-iphoneos/GuessHex.app/whiteButton.png whiteButton.png319039277#319039277#0(0"0(0#0#55"/Users/itarato/Documents/XCode/GuessHex/whiteButton.png8611448832#576"    cd /Users/itarato/Documents/XCode/GuessHex    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/itarato/Documents/XCode/GuessHex/whiteButton.png /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/whiteButton.png0#
+
+CCpResource build/Release-iphoneos/GuessHex.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319039277.467353
+e319039277.480366
+r1
+xCpResource
+xbuild/Release-iphoneos/GuessHex.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319039277#319039277#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist5423551314508738560#520"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app0#
+
+CCreateUniversalBinary /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex normal "armv6 armv7"
+s319039280.213660
+e319039280.217793
+r1
+xCreateUniversalBinary
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Release-iphoneos/GuessHex.app/GuessHex normal "armv6 armv7"319039280#319039280#0(0"0(0#0#51"/Users/itarato/Documents/XCode/GuessHex/armv6 armv78595258720#536"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex -output /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex0#
+
+CGenerateDSYMFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app.dSYM /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex
+s319039280.611613
+e319039280.666751
+r1
+xGenerateDSYMFile
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app.dSYM
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex
+lSLF07#2@102"GenerateDSYMFile build/Release-iphoneos/GuessHex.app.dSYM build/Release-iphoneos/GuessHex.app/GuessHex319039280#319039280#0(0"0(0#0#84"/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex8610993856#372"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/GuessHex -o /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app.dSYM0#
+
+CLd /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex normal armv6
+s319039279.411690
+e319039279.480715
+r1
+xLd
+x/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex
+xnormal
+xarmv6
+lSLF07#2@127"Link /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex319039279#319039279#0(0"0(0#0#0"8610900512#878"    cd /Users/itarato/Documents/XCode/GuessHex    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -filelist /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv6/GuessHex0#
+
+CLd /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex normal armv7
+s319039280.168997
+e319039280.213559
+r1
+xLd
+x/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex
+xnormal
+xarmv7
+lSLF07#2@127"Link /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex319039280#319039280#0(0"0(0#0#0"8611277440#878"    cd /Users/itarato/Documents/XCode/GuessHex    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -F/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos -filelist /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/Objects-normal/armv7/GuessHex0#
+
+CProcessInfoPlistFile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Info.plist GuessHex-Info.plist
+s319039277.471511
+e319039277.475531
+r1
+xProcessInfoPlistFile
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Info.plist
+xGuessHex-Info.plist
+lSLF07#2@27"Process GuessHex-Info.plist319039277#319039277#0(0"0(0#0#59"/Users/itarato/Documents/XCode/GuessHex/GuessHex-Info.plist8610374336#576"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility GuessHex-Info.plist -genpkginfo /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/ResourceRules.plist -o /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/Info.plist0#
+
+CProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-anxyoaqeyxmqwxbdiyffifflbdoz/GuessHex_Prefix.pch.gch GuessHex_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fbbwoqvxbhxuuzdebuyhctlexeeo/GuessHex_Prefix.pch.pth GuessHex_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fblvdwyuhtodnwfujjcvvdxnrqrp/GuessHex_Prefix.pch.gch GuessHex_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-gugtepkuidloolcpqydxepojtxlm/GuessHex_Prefix.pch.pth GuessHex_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessProductPackaging "/Users/itarato/Library/MobileDevice/Provisioning Profiles/9EE2DAA7-5891-4C16-AFDA-C33170263957.mobileprovision" /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision
+s319039854.353190
+e319039854.354571
+r1
+xProcessProductPackaging
+x/Users/itarato/Library/MobileDevice/Provisioning Profiles/9EE2DAA7-5891-4C16-AFDA-C33170263957.mobileprovision
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/itarato/Library/MobileDevice/Provisioning Profiles/9EE2DAA7-5891-4C16-AFDA-C33170263957.mobileprovision" build/Release-iphoneos/GuessHex.app/embedded.mobileprovision319039854#319039854#0(0"0(0#0#100"/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision8617072928#430"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/itarato/Library/MobileDevice/Provisioning Profiles/9EE2DAA7-5891-4C16-AFDA-C33170263957.mobileprovision" -o /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/itarato/Library/MobileDevice/Provisioning Profiles/EC6B8632-E378-4A81-B28F-EC287DA8D614.mobileprovision" /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision
+s319039280.666852
+e319039280.668198
+r1
+xProcessProductPackaging
+x/Users/itarato/Library/MobileDevice/Provisioning Profiles/EC6B8632-E378-4A81-B28F-EC287DA8D614.mobileprovision
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/itarato/Library/MobileDevice/Provisioning Profiles/EC6B8632-E378-4A81-B28F-EC287DA8D614.mobileprovision" build/Release-iphoneos/GuessHex.app/embedded.mobileprovision319039280#319039280#0(0"0(0#0#100"/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision8610378112#430"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/itarato/Library/MobileDevice/Provisioning Profiles/EC6B8632-E378-4A81-B28F-EC287DA8D614.mobileprovision" -o /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex.xcent
+s319039854.358376
+e319039854.404940
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex.xcent
+lSLF07#2@180"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex.xcent319039854#319039854#0(0"0(0#0#107"/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex.xcent8617118688#439"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Release-iphoneos/GuessHex.build/GuessHex.xcent0#
+
+CTouch /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+s319039854.354647
+e319039854.358272
+r1
+xTouch
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+lSLF07#2@81"Touch /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app319039854#319039854#0(0"0(0#0#0"8617093504#269"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app0#
+
+CValidate /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+s319039860.847980
+e319039861.075441
+r1
+xValidate
+x/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app
+lSLF07#2@44"Validate build/Release-iphoneos/GuessHex.app319039860#319039861#0(0"0(0#0#75"/Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app8616956736#378"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/itarato/Documents/XCode/GuessHex/build/Release-iphoneos/GuessHex.app0#
+
