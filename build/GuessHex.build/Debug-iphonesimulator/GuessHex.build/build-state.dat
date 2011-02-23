@@ -1,7 +1,7 @@
 TGuessHex
 v7
 r0
-t320106429.772435
+t320132909.948180
 cCheck dependencies
 cProcessInfoPlistFile /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/Info.plist GuessHex-Info.plist
 cCpResource build/Debug-iphonesimulator/GuessHex.app/Icon.png Icon.png
@@ -14,6 +14,7 @@ cCompileXIB /Users/itarato/Documents/XCode/GuessHex/GameView.xib
 cCompileXIB /Users/itarato/Documents/XCode/GuessHex/SetupView.xib
 cCompileXIB /Users/itarato/Documents/XCode/GuessHex/MainWindow.xib
 cProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fdzmprirjkxtwshcqjqwkvqbhfei/GuessHex_Prefix.pch.gch GuessHex_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-gykptvryxosogcdyzashesxhyubi/GuessHex_Prefix.pch.pth GuessHex_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
 cCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/main.o /Users/itarato/Documents/XCode/GuessHex/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/GuessHexAppDelegate.o /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/GameViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -22,7 +23,15 @@ cCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-norm
 cCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/ApplicationViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/ColorBox.o /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/HexColor.o /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cAnalyze /Users/itarato/Documents/XCode/GuessHex/main.m
+cAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/GuessHexAppDelegate.m
+cAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/GameViewController.m
+cAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
 cLd /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex normal i386
+cAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m
+cAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m
+cAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m
+cAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/HexColor.m
 cGenerateDSYMFile /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app.dSYM /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex
 cTouch /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app
 
@@ -156,9 +165,9 @@ s788
 i<UIKit/UIKit.h>
 
 N/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
-c000000004D64383A0000000000000E56
-t1298413626
-s3670
+c000000004D649FAA0000000000000EA9
+t1298440106
+s3753
 i"SetupViewController.h"
 i"GuessHexAppDelegate.h"
 i"ApplicationViewController.h"
@@ -212,11 +221,11 @@ t1298412516
 s40149
 
 N/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app
-t1298413628
+t1298440109
 s476
 
 N/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app.dSYM
-t1298413628
+t1298440109
 s102
 
 N/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GameView.nib
@@ -224,7 +233,7 @@ t1298397120
 s1992
 
 N/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex
-t1298413628
+t1298440109
 s57960
 
 N/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/Icon-Small.png
@@ -301,15 +310,15 @@ t1298397123
 s42724
 
 N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/SetupViewController.o
-t1298413628
-s62732
+t1298440109
+s62980
 
 N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/main.o
 t1298397123
 s6304
 
 N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/ApplicationViewController.plist
-t1298412443
+t1298413799
 s276
 
 N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/ColorBox.plist
@@ -337,7 +346,7 @@ t1298397540
 s276
 
 N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/SetupViewController.plist
-t1298412710
+t1298440109
 s276
 
 N/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/main.plist
@@ -369,12 +378,12 @@ t1297344442
 s888
 
 CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m
-s320105243.564435
-e320105243.629703
+s320106599.891927
+e320106599.949584
 r1
 xAnalyze
 x/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m
-lSLF07#2@83"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m320105243#320105243#0(0"0(0#0#75"/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m8611951040#2004"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -I/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources/i386 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-gykptvryxosogcdyzashesxhyubi/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/ApplicationViewController.plist0#
+lSLF07#2@83"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m320106599#320106599#0(0"0(0#0#75"/Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m8635937344#2004"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -I/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources/i386 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-gykptvryxosogcdyzashesxhyubi/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/ApplicationViewController.plist0#
 
 CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/ColorBox.m
 s320090340.512035
@@ -424,12 +433,12 @@ x/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m
 lSLF07#2@76"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m320090340#320090340#0(0"0(0#0#68"/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m8611655360#1990"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -I/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources/i386 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-gykptvryxosogcdyzashesxhyubi/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/MainViewController.plist0#
 
 CAnalyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
-s320105510.020913
-e320105510.074674
+s320132909.063322
+e320132909.573387
 r1
 xAnalyze
 x/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m
-lSLF07#2@77"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m320105510#320105510#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m8633058144#1992"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -I/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources/i386 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-gykptvryxosogcdyzashesxhyubi/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/SetupViewController.plist0#
+lSLF07#2@77"Analyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m320132909#320132909#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m8615960576#1992"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -I/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources/i386 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-gykptvryxosogcdyzashesxhyubi/GuessHex_Prefix.pch --analyze /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/StaticAnalyzer/normal/i386/SetupViewController.plist0#
 
 CAnalyze /Users/itarato/Documents/XCode/GuessHex/main.m
 s320090340.097161
@@ -441,7 +450,7 @@ lSLF07#2@54"Analyze /Users/itarato/Documents/XCode/GuessHex/main.m320090340#3200
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies320106429#320106429#0(0"0(0#1#0"8637761120#0"0#
+lSLF07#2@18"Check dependencies320132908#320132908#0(0"0(0#1#0"3343187568374212096#0"0#
 
 CCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/ApplicationViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/ApplicationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s320106349.119835
@@ -525,8 +534,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m320089923#320089923#0(0"0(0#0#68"/Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m8605798208#1981"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -I/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources/i386 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fdzmprirjkxtwshcqjqwkvqbhfei/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/MainViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/MainViewController.o0#
 
 CCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/SetupViewController.o /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320106428.217561
-e320106428.369257
+s320132908.925953
+e320132909.159130
 r1
 xCompileC
 xbuild/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/SetupViewController.o
@@ -535,7 +544,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m320106428#320106428#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m8633396832#1983"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -I/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources/i386 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fdzmprirjkxtwshcqjqwkvqbhfei/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/SetupViewController.o0#
+lSLF07#2@77"Compile /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m320132908#320132909#0(0"0(0#0#69"/Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m7307761437599099904#1983"    cd /Users/itarato/Documents/XCode/GuessHex    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-generated-files.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-own-target-headers.hmap -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-all-target-headers.hmap -iquote /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/GuessHex-project-headers.hmap -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -I/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/include -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources/i386 -I/Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/DerivedSources -include /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuessHex_Prefix-fdzmprirjkxtwshcqjqwkvqbhfei/GuessHex_Prefix.pch -c /Users/itarato/Documents/XCode/GuessHex/Classes/SetupViewController.m -o /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/SetupViewController.o0#
 
 CCompileC build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/main.o /Users/itarato/Documents/XCode/GuessHex/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s320089922.028774
@@ -631,23 +640,23 @@ xwhiteButton.png
 lSLF07#2@20"Copy whiteButton.png320089920#320089920#0(0"0(0#0#55"/Users/itarato/Documents/XCode/GuessHex/whiteButton.png8609955520#477"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/itarato/Documents/XCode/GuessHex/whiteButton.png /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app0#
 
 CGenerateDSYMFile /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app.dSYM /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex
-s320106428.400688
-e320106428.427822
+s320132909.863458
+e320132909.944505
 r1
 xGenerateDSYMFile
 x/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app.dSYM
 x/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/GuessHex.app.dSYM build/Debug-iphonesimulator/GuessHex.app/GuessHex320106428#320106428#0(0"0(0#0#89"/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex8635472768#389"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex -o /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app.dSYM0#
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/GuessHex.app.dSYM build/Debug-iphonesimulator/GuessHex.app/GuessHex320132909#320132909#0(0"0(0#0#89"/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex8614187936#389"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex -o /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app.dSYM0#
 
 CLd /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex normal i386
-s320106428.369345
-e320106428.400586
+s320132909.159223
+e320132909.863355
 r1
 xLd
 x/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex
 xnormal
 xi386
-lSLF07#2@94"Link /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex320106428#320106428#0(0"0(0#0#0"8635868512#910"    cd /Users/itarato/Documents/XCode/GuessHex    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -filelist /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/GuessHex.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex0#
+lSLF07#2@94"Link /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex320132909#320132909#0(0"0(0#0#0"8615196352#910"    cd /Users/itarato/Documents/XCode/GuessHex    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -F/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator -filelist /Users/itarato/Documents/XCode/GuessHex/build/GuessHex.build/Debug-iphonesimulator/GuessHex.build/Objects-normal/i386/GuessHex.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/GuessHex0#
 
 CProcessInfoPlistFile /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app/Info.plist GuessHex-Info.plist
 s320089920.332753
@@ -665,10 +674,10 @@ CProcessPCH /var/folders/wB/wBm8VaoTEsGyrqHTTGtYt++++TI/-Caches-/com.apple.Xcode
 r0
 
 CTouch /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app
-s320106428.427915
-e320106428.430450
+s320132909.945227
+e320132909.948131
 r1
 xTouch
 x/Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app
-lSLF07#2@86"Touch /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app320106428#320106428#0(0"0(0#0#0"8634851616#281"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app0#
+lSLF07#2@86"Touch /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app320132909#320132909#0(0"0(0#0#0"8616796576#281"    cd /Users/itarato/Documents/XCode/GuessHex    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/itarato/Documents/XCode/GuessHex/build/Debug-iphonesimulator/GuessHex.app0#
 

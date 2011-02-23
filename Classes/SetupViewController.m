@@ -76,6 +76,9 @@
 - (void)dealloc {
 	[colorNumLabel release];
 	[slider release];
+	[saveButton release];
+	[showFailedHexcodeSwitch release];
+	[resetButton release];
     [super dealloc];
 }
 
