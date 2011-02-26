@@ -11,6 +11,9 @@
 #import "MainViewController.h"
 #import "GameViewController.h"
 #import "SetupViewController.h"
+#import "HelpViewController.h"
+#import "GameCenterManager.h"
+#import <GameKit/GKLeaderboardViewController.h>
 
 #define UIVIEW_FLIP_ANIMATION_DURATION 0.8
 
@@ -36,8 +39,15 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pressStartGameButton:) name:@"PressStartGameButton" object:nil];
-
+	[GameCenterManager authenticateUser];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goToGame:)		name:@"GoGame"			object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goToSetup:)		name:@"GoSetup"			object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goToLeaderBoard:)	name:@"GoLeaderBoard"	object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goToHelp:)		name:@"GoHelp"			object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goToHome:)		name:@"GoHome"			object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(settingsSaved:)	name:@"SettingsSaved"	object:nil];
+	
 	mainVC = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	[self.view insertSubview:mainVC.view atIndex:0];
 	
@@ -69,8 +79,13 @@
 
 - (void)dealloc {
 	[mainVC release];
+	mainVC = nil;
 	[gameVC release];
+	gameVC = nil;
 	[setupVC release];
+	setupVC = nil;
+	[helpVC release];
+	helpVC = nil;
     [super dealloc];
 }
 
@@ -78,62 +93,70 @@
 #pragma mark -
 #pragma mark Custom actions
 
-- (void)pressStartGameButton:(NSNotification *)notification {
-	
+- (void)goToGame:(NSNotification *)notification {
 	if (gameVC == nil) {
 		gameVC = [[GameViewController alloc] initWithNibName:@"GameView" bundle:nil];
 	} else {
 		[gameVC startNewRound];
 	}
 	[gameVC.view layoutSubviews];
-	
-	[UIView beginAnimations:@"Flip" context:nil];
-	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-	[UIView setAnimationDuration:UIVIEW_FLIP_ANIMATION_DURATION];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
-	
-	UIViewController *_mainVC = (UIViewController *)[notification object];
-	[_mainVC.view removeFromSuperview];
-	[self.view insertSubview:gameVC.view atIndex:0];
-	
-	[UIView commitAnimations];
+	[self swapViews:gameVC.view];
 }
 
 
-- (void)pressSetupSaveButton {
-	if (gameVC == nil) {
-		gameVC = [[GameViewController alloc] initWithNibName:@"GameView" bundle:nil];
+- (void)goToLeaderBoard:(NSNotification *)notification {
+	if (![GameCenterManager isGameCenterAvailable] || ![GameCenterManager isUserAuthenticated]) {
+		[GameCenterManager showDefaultErrorAlert];
+		return;
 	}
-	[gameVC startNewRound];
-	[gameVC.view layoutSubviews];
 	
-	[UIView beginAnimations:@"Flip" context:nil];
-	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-	[UIView setAnimationDuration:UIVIEW_FLIP_ANIMATION_DURATION];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
-	
-	[setupVC.view removeFromSuperview];
-	[self.view insertSubview:gameVC.view atIndex:0];
-	
-	[UIView commitAnimations];
+	GKLeaderboardViewController *leaderboard = [[GKLeaderboardViewController alloc] init];
+	if (leaderboard != NULL) {
+		leaderboard.category = @"colornum_2";
+		leaderboard.timeScope = GKLeaderboardTimeScopeAllTime;
+		leaderboard.leaderboardDelegate = mainVC;
+		[mainVC presentModalViewController:leaderboard animated:YES];
+		[leaderboard release];
+	}
+	// @TODO handle error
 }
 
 
-- (void)goToSetup {
+- (void)goToHelp:(NSNotification *)notification {
+	if (helpVC == nil) {
+		helpVC = [[HelpViewController alloc] initWithNibName:@"HelpView" bundle:nil];
+	}
+	[helpVC.view layoutSubviews];
+	[self swapViews:helpVC.view];
+}
+
+
+- (void)goToSetup:(NSNotification *)notification {
 	if (setupVC == nil) {
 		setupVC = [[SetupViewController alloc] initWithNibName:@"SetupView" bundle:nil];
 	}
 	[setupVC.view layoutSubviews];
-	
-	[UIView beginAnimations:@"Flip" context:nil];
-	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-	[UIView setAnimationDuration:UIVIEW_FLIP_ANIMATION_DURATION];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
-	
-	[gameVC.view removeFromSuperview];
-	[self.view insertSubview:setupVC.view atIndex:0];
-	
-	[UIView commitAnimations];
+	[self swapViews:setupVC.view];
+	isSetupAskedFromGame = [[notification object] isKindOfClass:[GameViewController class]];
+}
+
+
+- (void)goToHome:(NSNotification *)notification {
+	if (mainVC == nil) {
+		mainVC = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
+	}
+	[mainVC.view layoutSubviews];
+	[self swapViews:mainVC.view];
+}
+
+
+- (void)settingsSaved:(NSNotification *)notification {
+	if (isSetupAskedFromGame) {
+		[self goToGame:notification];
+	} else {
+		[self goToHome:notification];
+	}
+	isSetupAskedFromGame = NO;
 }
 
 
@@ -142,17 +165,20 @@
 		mainVC = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	}
 	[mainVC.view layoutSubviews];
-	
+	[self swapViews:mainVC.view];
+}
+
+
+- (void)swapViews:(UIView *)newView {
 	[UIView beginAnimations:@"Flip" context:nil];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
 	[UIView setAnimationDuration:UIVIEW_FLIP_ANIMATION_DURATION];
 	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
-	
-	[gameVC.view removeFromSuperview];
-	[self.view insertSubview:mainVC.view atIndex:0];
-	
+	[(UIView *)[self.view.subviews objectAtIndex:0] removeFromSuperview];
+	[self.view insertSubview:newView atIndex:0];
 	[UIView commitAnimations];
 }
+
 
 
 @end

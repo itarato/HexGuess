@@ -75,10 +75,15 @@
 
 - (void)dealloc {
 	[colorNumLabel release];
+	colorNumLabel = nil;
 	[slider release];
+	slider = nil;
 	[saveButton release];
+	saveButton = nil;
 	[showFailedHexcodeSwitch release];
+	showFailedHexcodeSwitch = nil;
 	[resetButton release];
+	resetButton = nil;
     [super dealloc];
 }
 
@@ -90,8 +95,7 @@
 
 
 - (IBAction)pressedSaveButton:(id)sender {
-	GuessHexAppDelegate *appDelegate = (GuessHexAppDelegate *)[[UIApplication sharedApplication] delegate];
-	[[appDelegate applicationViewController] pressSetupSaveButton];
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"SettingsSaved" object:nil];
 }
 
 
@@ -114,10 +118,10 @@
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
 	if (buttonIndex == 0) {
-		int i;
-		for (i = 2; i <= 16; i++) {
-			[GameViewController setSeriesBestForColorNumber:i value:0];
-		}
+//		int i;
+//		for (i = 2; i <= 16; i++) {
+//			[GameViewController setSeriesBestForColorNumber:i value:0];
+//		}
 		[GameViewController setShowFailedHexcode:YES];
 		[GameViewController setColorNum:3];
 		slider.value = 3.0;

@@ -18,5 +18,7 @@
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet ApplicationViewController *applicationViewController;
 
++ (BOOL) isGameCenterAvailable;
+
 @end
 

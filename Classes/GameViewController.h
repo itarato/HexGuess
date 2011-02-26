@@ -13,6 +13,9 @@
 	IBOutlet UIScrollView *scrollView;
 	IBOutlet UILabel *colorLabel;
 	IBOutlet UIButton *setupButton;
+	IBOutlet UILabel *bestSeriesLabel;
+	IBOutlet UILabel *currentSeriesLabel;
+	IBOutlet UIButton *homeButton;
 	
 	int winnerIDX;
 	int winningSeriesCount;
@@ -21,11 +24,11 @@
 
 @property int winnerIDX;
 
+- (IBAction)pressHomeButton:(id)sender;
 - (IBAction)pressSetupButton:(id)sender;
 - (void)startNewRound;
 - (void)clearColors;
 - (BOOL)checkBestSeries;
-
 
 + (int)getColorNum;
 + (void)setColorNum:(int)newValue;
@@ -35,6 +38,5 @@
 
 + (int)getSeriesBestForColorNumber:(int)colorNumber;
 + (void)setSeriesBestForColorNumber:(int)colorNumber value:(int)value;
-
 
 @end

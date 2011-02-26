@@ -7,17 +7,22 @@
 //
 
 #import "MainViewController.h"
+#import <GameKit/GKLeaderboardViewController.h>
 
 
 @implementation MainViewController
 
 @synthesize startButton;
+@synthesize settingsButton;
+@synthesize leaderBoardButton;
+@synthesize helpButton;
 
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
+		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gameCenterIsConnected:) name:@"GameCenterConnected" object:nil];
     }
     return self;
 }
@@ -37,6 +42,11 @@
 	UIImage *startButtonImage = [UIImage imageNamed:@"whiteButton.png"];
 	UIImage *stretchableImage = [startButtonImage stretchableImageWithLeftCapWidth:12 topCapHeight:0];
 	[startButton setBackgroundImage:stretchableImage forState:UIControlStateNormal];
+	[settingsButton setBackgroundImage:stretchableImage forState:UIControlStateNormal];
+	[leaderBoardButton setBackgroundImage:stretchableImage forState:UIControlStateNormal];
+	[helpButton setBackgroundImage:stretchableImage forState:UIControlStateNormal];
+	
+	self.leaderBoardButton.enabled = NO;
 }
 
 
@@ -63,6 +73,14 @@
 
 
 - (void)dealloc {
+	[startButton release];
+	startButton = nil;
+	[settingsButton release];
+	settingsButton = nil;
+	[leaderBoardButton release];
+	leaderBoardButton = nil;
+	[helpButton release];
+	helpButton = nil;
     [super dealloc];
 }
 
@@ -71,8 +89,32 @@
 #pragma mark Custom actions
 
 - (IBAction) pressStartGameButton:(id)sender {
-	[[NSNotificationCenter defaultCenter] postNotificationName:@"PressStartGameButton" object:self];
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"GoGame" object:self];
 }
 
+
+- (IBAction)pressSettingsButton:(id)sender {
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"GoSetup" object:self];
+}
+
+
+- (IBAction)pressLeaderBoardButton:(id)sender {
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"GoLeaderBoard" object:self];
+}
+
+
+- (IBAction)pressHelpButton:(id)sender {
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"GoHelp" object:self];
+}
+
+
+- (void)leaderboardViewControllerDidFinish:(GKLeaderboardViewController *)viewController {
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+
+- (void)gameCenterIsConnected:(NSNotification *)notification {
+	self.leaderBoardButton.enabled = YES;
+}
 
 @end

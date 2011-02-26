@@ -11,6 +11,8 @@
 #import "ColorBox.h"
 #import "GuessHexAppDelegate.h"
 #import "ApplicationViewController.h"
+#import <GameKit/GKScore.h>
+#import "GameCenterManager.h"
 
 #define COLOR_BOX_PADDING 8.0
 #define COLOR_BOX_WIDTH 70.0
@@ -77,8 +79,17 @@
 
 - (void)dealloc {
 	[scrollView release];
+	scrollView = nil;
 	[colorLabel release];
+	colorLabel = nil;
 	[setupButton release];
+	setupButton = nil;
+	[bestSeriesLabel release];
+	bestSeriesLabel = nil;
+	[currentSeriesLabel release];
+	currentSeriesLabel = nil;
+	[homeButton release];
+	homeButton = nil;
     [super dealloc];
 }
 
@@ -90,6 +101,8 @@
 	// Remove all the color boxes
 	[self clearColors];
 	wrongGuessFlag = NO;
+	currentSeriesLabel.text = [NSString stringWithFormat:@"%d", winningSeriesCount];
+	bestSeriesLabel.text = [NSString stringWithFormat:@"%d", [GameViewController getSeriesBestForColorNumber:[GameViewController getColorNum]]];
 	
 	self.winnerIDX = arc4random() % [GameViewController getColorNum];
 	
@@ -109,11 +122,8 @@
 			colorLabel.text = [hc getHexName];
 			cb.isWinner = YES;
 		}
-		
+
 		[hc release];
-		// @todo it has to be a release but if failes
-		// Maybe because I missed a UIView event?
-		//[cb release];
 	}
 	
 	[scrollView layoutSubviews];
@@ -133,7 +143,7 @@
 		if (newRecord) {
 			alert = [[UIAlertView alloc] initWithTitle:@"New record!" message:[NSString stringWithFormat:@"%d perfect guess in a row with %d colors.", winningSeriesCount, [GameViewController getColorNum]] delegate:self cancelButtonTitle:@"New game" otherButtonTitles:nil];
 		} else if (!wrongGuessFlag) {
-			alert = [[UIAlertView alloc] initWithTitle:@"Nice catch!" message:@"Congratulation, you guessed it right!" delegate:self cancelButtonTitle:@"New game" otherButtonTitles:nil];
+			alert = [[UIAlertView alloc] initWithTitle:@"Nice catch!" message:@"Congratulation, you were right!" delegate:self cancelButtonTitle:@"New game" otherButtonTitles:nil];
 		} else {
 			alert = [[UIAlertView alloc] initWithTitle:@"Well well well." message:@"Don't give it up." delegate:self cancelButtonTitle:@"New game" otherButtonTitles:nil];
 		}
@@ -151,9 +161,12 @@
 }
 
 
+- (IBAction)pressHomeButton:(id)sender {
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"GoHome" object:self];
+}
+
 - (IBAction)pressSetupButton:(id)sender {
-	GuessHexAppDelegate *appDelegate = (GuessHexAppDelegate *)[[UIApplication sharedApplication] delegate];
-	[[appDelegate applicationViewController] goToSetup];
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"GoSetup" object:self];
 }
 
 
@@ -181,6 +194,19 @@
 	int colorNum = [GameViewController getColorNum];
 	if (winningSeriesCount > [GameViewController getSeriesBestForColorNumber:colorNum]) {
 		[GameViewController setSeriesBestForColorNumber:colorNum value:winningSeriesCount];
+		
+		if ([GameCenterManager isUserAuthenticated]) {
+			GKScore *score = [[[GKScore alloc] initWithCategory:[NSString stringWithFormat:@"colornum_%d", [GameViewController getColorNum]]] autorelease];
+			score.value = winningSeriesCount;
+			[score reportScoreWithCompletionHandler:^(NSError *error) {
+				if (error == nil) {
+					NSLog(@"GKScore is saved.");
+				} else {
+					NSLog(@"Failed to save GKScore.");
+				}
+			}];
+		}
+		
 		return YES;
 	}
 	
