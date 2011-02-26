@@ -145,7 +145,7 @@
 		} else if (!wrongGuessFlag) {
 			alert = [[UIAlertView alloc] initWithTitle:@"Nice catch!" message:@"Congratulation, you were right!" delegate:self cancelButtonTitle:@"New game" otherButtonTitles:nil];
 		} else {
-			alert = [[UIAlertView alloc] initWithTitle:@"Well well well." message:@"Don't give it up." delegate:self cancelButtonTitle:@"New game" otherButtonTitles:nil];
+			alert = [[UIAlertView alloc] initWithTitle:@"Finally!" message:@"Don't give it up." delegate:self cancelButtonTitle:@"New game" otherButtonTitles:nil];
 		}
 
 		[alert show];
